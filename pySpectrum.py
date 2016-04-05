@@ -2,10 +2,9 @@
 
 """
 Spectrum analyser by Robert de Lisle
-
 Uses libraries wave to read in sound, and matplotlib for displaying results
 """
-import sys, wave
+import sys, wave, matplotlib
 
 def main( wav_file ):
     w = wave.open(wav_file, 'r')
